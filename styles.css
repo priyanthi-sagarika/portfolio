@@ -1,0 +1,22 @@
+/* nav-bar-buttons */
+/* styles.css */
+
+.nav-btn {
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #0e7490; /* Darker cyan for hover */
+  color: #fff; /* White text on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.nav-btn:active {
+  background-color: #0c4a6e; /* Even darker cyan for active state */
+}
+
+.fixed-size-image {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+}
